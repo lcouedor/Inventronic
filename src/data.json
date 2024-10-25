@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "id": 1,
+      "nom": "Résistance 10kΩ",
+      "code": "RES10K",
+      "tags": ["électronique", "résistance"],
+      "description": "Résistance 10kΩ pour circuits électroniques",
+      "quantite": 100,
+      "image": "resistance_10k.png",
+      "prixUnitaire": 0.05,
+      "lienAchat": "https://example.com/resistance-10k"
+    },
+    {
+      "id": 2,
+      "nom": "Condensateur 100µF",
+      "code": "CAP100UF",
+      "tags": ["électronique", "condensateur"],
+      "description": "Condensateur 100µF pour stabilisation des tensions",
+      "quantite": 50,
+      "image": "condensateur_100uf.png",
+      "prixUnitaire": 0.15,
+      "lienAchat": "https://example.com/condensateur-100uf"
+    },
+    {
+      "id": 3,
+      "nom": "Microcontrôleur ATmega328",
+      "code": "MCU328",
+      "tags": ["microcontrôleur", "programmation"],
+      "description": "Microcontrôleur pour projets Arduino et autres",
+      "quantite": 10,
+      "image": "atmega328.png",
+      "prixUnitaire": 5.0,
+      "lienAchat": "https://example.com/atmega328"
+    }
+  ],
+  "liste": [
+    {
+      "id": 1,
+      "nom": "LED Rouge 5mm",
+      "description": "LED rouge classique pour circuits",
+      "priorite": 1,
+      "lienAchat": "https://example.com/led-rouge",
+      "quantite": 20,
+      "prixUnitaire": 0.1
+    },
+    {
+      "id": 2,
+      "nom": "Transistor NPN BC547",
+      "description": "Transistor NPN pour amplificateurs",
+      "priorite": 2,
+      "lienAchat": "https://example.com/transistor-bc547",
+      "quantite": 15,
+      "prixUnitaire": 0.2
+    }
+  ],
+  "projets": [
+    {
+      "id": 1,
+      "nom": "Station Météo",
+      "description": "Un projet de station météo pour mesurer la température et l'humidité.",
+      "statut": 1,
+      "components": [
+        {
+          "componentId": 1,
+          "quantity": 2
+        },
+        {
+          "componentId": 2,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Robot Suiveur de Ligne",
+      "description": "Un robot qui suit une ligne tracée sur le sol à l'aide de capteurs.",
+      "statut": 2,
+      "components": [
+        {
+          "componentId": 2,
+          "quantity": 2
+        },
+        {
+          "componentId": 3,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
